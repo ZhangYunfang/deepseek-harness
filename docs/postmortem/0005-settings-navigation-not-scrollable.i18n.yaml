@@ -1,0 +1,6 @@
+# Bilingual-pair consistency record (docs/i18n/README.md): the git blob hash of each
+# side as of the last confirmed-consistent state. Both languages carry equal authority;
+# after editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/postmortem/0005-settings-navigation-not-scrollable.md
+0005-settings-navigation-not-scrollable.md: 55ee4d8faf6e416ad392c1affded9ff45f0bda3a
+0005-settings-navigation-not-scrollable.zh.md: b04902b83c432865714f91b09501bf06e5071237
